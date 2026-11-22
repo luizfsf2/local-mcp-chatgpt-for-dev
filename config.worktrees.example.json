@@ -1,0 +1,31 @@
+{
+  "hc_executable": "hc",
+  "projects": {
+    "harness-main": {
+      "path": "C:/dev/hv-harness",
+      "agents": ["claude", "codex"]
+    },
+    "harness-auth": {
+      "path": "C:/dev/worktrees/hv-harness/feature-auth",
+      "agents": ["claude", "codex"]
+    },
+    "harness-qa": {
+      "path": "C:/dev/worktrees/hv-harness/fix-qa",
+      "agents": ["claude", "codex"]
+    }
+  },
+  "attached_sessions": {
+    "claude-auth": {
+      "project": "harness-auth",
+      "terminal": "claude-auth",
+      "agent": "claude"
+    }
+  },
+  "agent_commands": {
+    "claude": ["claude"],
+    "codex": ["codex"]
+  },
+  "allow_launch": true,
+  "allow_send": true,
+  "allow_interrupt": false
+}

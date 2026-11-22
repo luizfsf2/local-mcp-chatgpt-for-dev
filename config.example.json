@@ -1,0 +1,23 @@
+{
+  "hc_executable": "hc",
+  "projects": {
+    "meu-projeto": {
+      "path": "C:\\dev\\meu-projeto",
+      "agents": ["claude", "codex"]
+    }
+  },
+  "attached_sessions": {
+    "claude-existente": {
+      "project": "meu-projeto",
+      "terminal": "t7",
+      "agent": "claude"
+    }
+  },
+  "agent_commands": {
+    "claude": ["claude"],
+    "codex": ["codex"]
+  },
+  "allow_launch": true,
+  "allow_send": true,
+  "allow_interrupt": false
+}
